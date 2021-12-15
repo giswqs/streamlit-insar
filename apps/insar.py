@@ -9,7 +9,7 @@ def app():
 
     st.title("InSAR")
 
-    option = st.radio("Choose an option", ("Circle Marker", "Marker Cluster"))
+    option = st.radio("Choose an option", ("Marker Cluster", "Circle Marker"))
 
     m = leafmap.Map(
         center=[29.7029, -95.3335], latlon_control=False, zoom=16, height=600
